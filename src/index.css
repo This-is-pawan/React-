@@ -1,13 +1,47 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+a{
+  text-decoration:none ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 2px;
+  color: rgb(70, 57, 41);
+ 
+}
+li{
+  list-style-type: none;
+}
+.unOrderList{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  line-height: 5rem;
+}
+nav{
+  width: 100%;
+  /* min-width: 550px; */
+  margin: auto;
+  height: 100px;
+  box-shadow: 2px 2px 5px pink;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1{
+  color: pink;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   letter-spacing: 2px;
+   font-size: 2rem;
+text-align: center;
 }
